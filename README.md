@@ -1,0 +1,3 @@
+# React useEffect Hook Dependency Array Error
+
+This example demonstrates a common error in React's `useEffect` hook: an incorrect dependency array.  The `useEffect` hook is designed to perform side effects after each render, but if the dependency array is missing or incorrect, it can lead to unexpected behavior and performance issues. In this example, forgetting to include `count` results in an infinite loop as the effect triggers and updates count continuously. 
